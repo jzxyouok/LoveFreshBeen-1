@@ -53,8 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				0412F6F81E98BAE700D9B4B4 /* AppDelegate.swift */,
-				0412F70A1E98C33400D9B4B4 /* Classes */,
-				0412F6FC1E98BAE700D9B4B4 /* Main.storyboard */,
+				0412F7211E98F05E00D9B4B4 /* Classes */,
 				0412F6FF1E98BAE700D9B4B4 /* Assets.xcassets */,
 				0412F7011E98BAE700D9B4B4 /* LaunchScreen.storyboard */,
 				0412F7041E98BAE700D9B4B4 /* Info.plist */,
@@ -62,63 +61,64 @@
 			path = LoveFreshBeen;
 			sourceTree = "<group>";
 		};
-		0412F70A1E98C33400D9B4B4 /* Classes */ = {
+		0412F7211E98F05E00D9B4B4 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				0412F70D1E98C33400D9B4B4 /* Main */,
-				0412F70C1E98C33400D9B4B4 /* Home */,
-				0412F7101E98C33400D9B4B4 /* SuperMarket */,
-				0412F70B1E98C33400D9B4B4 /* FreshOrder */,
-				0412F70F1E98C33400D9B4B4 /* shopCart */,
-				0412F70E1E98C33400D9B4B4 /* Profile */,
-				0412F7111E98C33400D9B4B4 /* Tools */,
+				0412F7241E98F05E00D9B4B4 /* Main */,
+				0412F7231E98F05E00D9B4B4 /* Home */,
+				0412F7271E98F05E00D9B4B4 /* SuperMarket */,
+				0412F7221E98F05E00D9B4B4 /* FreshReservation */,
+				0412F7261E98F05E00D9B4B4 /* ShopCart */,
+				0412F7251E98F05E00D9B4B4 /* Profile */,
+				0412F7281E98F05E00D9B4B4 /* Tools */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		0412F70B1E98C33400D9B4B4 /* FreshOrder */ = {
+		0412F7221E98F05E00D9B4B4 /* FreshReservation */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = FreshOrder;
+			path = FreshReservation;
 			sourceTree = "<group>";
 		};
-		0412F70C1E98C33400D9B4B4 /* Home */ = {
+		0412F7231E98F05E00D9B4B4 /* Home */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Home;
 			sourceTree = "<group>";
 		};
-		0412F70D1E98C33400D9B4B4 /* Main */ = {
+		0412F7241E98F05E00D9B4B4 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				0412F6FC1E98BAE700D9B4B4 /* Main.storyboard */,
 			);
 			path = Main;
 			sourceTree = "<group>";
 		};
-		0412F70E1E98C33400D9B4B4 /* Profile */ = {
+		0412F7251E98F05E00D9B4B4 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Profile;
 			sourceTree = "<group>";
 		};
-		0412F70F1E98C33400D9B4B4 /* shopCart */ = {
+		0412F7261E98F05E00D9B4B4 /* ShopCart */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = shopCart;
+			path = ShopCart;
 			sourceTree = "<group>";
 		};
-		0412F7101E98C33400D9B4B4 /* SuperMarket */ = {
+		0412F7271E98F05E00D9B4B4 /* SuperMarket */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = SuperMarket;
 			sourceTree = "<group>";
 		};
-		0412F7111E98C33400D9B4B4 /* Tools */ = {
+		0412F7281E98F05E00D9B4B4 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -210,6 +210,7 @@
 				0412F6FD1E98BAE700D9B4B4 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		0412F7011E98BAE700D9B4B4 /* LaunchScreen.storyboard */ = {
@@ -363,6 +364,7 @@
 				0412F7091E98BAE700D9B4B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
