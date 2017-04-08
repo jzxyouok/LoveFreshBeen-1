@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="MVn-TO-mfx">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ZCC-6c-Cd7">
+            <objects>
+                <viewController id="4Je-f9-1Xm" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mWF-K0-aHL"/>
+                        <viewControllerLayoutGuide type="bottom" id="gzX-W5-hNx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HAd-7c-mOA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ex1-Dk-9Qu"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UfG-vH-kRc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1648.8" y="509.59520239880067"/>
+        </scene>
+        <!--闪送超市-->
+        <scene sceneID="AHj-Vf-ESW">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="MVn-TO-mfx" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="闪送超市" image="order" selectedImage="orders" id="2S3-yj-pUK"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4_7.fullscreen"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="F6C-p3-GFk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="4Je-f9-1Xm" kind="relationship" relationship="rootViewController" id="wq5-Y3-aiB"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y0g-GR-XaO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="709.60000000000002" y="509.59520239880067"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="order" width="25" height="25"/>
+        <image name="orders" width="25" height="25"/>
+    </resources>
+</document>

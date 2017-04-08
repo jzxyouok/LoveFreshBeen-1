@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Axy-mk-wfF">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="jdX-3S-R2f">
+            <objects>
+                <viewController id="RIX-O5-pe3" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PII-8W-nbY"/>
+                        <viewControllerLayoutGuide type="bottom" id="VRq-rI-K4O"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dC7-su-Z2X">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Dnh-5R-ZfL"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="n9x-f5-2NC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1428" y="412.44377811094455"/>
+        </scene>
+        <!--新鲜预定-->
+        <scene sceneID="XFP-ig-biq">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Axy-mk-wfF" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="新鲜预定" image="freshReservation" selectedImage="freshReservations" id="gag-Q5-m0e"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4_7.fullscreen"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="DYn-L5-vSu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="RIX-O5-pe3" kind="relationship" relationship="rootViewController" id="9r2-PE-sbI"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T4f-c4-GFt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="488.80000000000001" y="412.44377811094455"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="freshReservation" width="25" height="25"/>
+        <image name="freshReservations" width="25" height="25"/>
+    </resources>
+</document>

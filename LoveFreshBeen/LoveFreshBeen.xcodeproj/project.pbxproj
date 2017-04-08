@@ -11,6 +11,13 @@
 		0412F6FE1E98BAE700D9B4B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0412F6FC1E98BAE700D9B4B4 /* Main.storyboard */; };
 		0412F7001E98BAE700D9B4B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0412F6FF1E98BAE700D9B4B4 /* Assets.xcassets */; };
 		0412F7031E98BAE700D9B4B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0412F7011E98BAE700D9B4B4 /* LaunchScreen.storyboard */; };
+		0412F72E1E98F4C100D9B4B4 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0412F72C1E98F4C100D9B4B4 /* Home.storyboard */; };
+		0412F7311E98F5B300D9B4B4 /* SuperMarket.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0412F72F1E98F5B300D9B4B4 /* SuperMarket.storyboard */; };
+		0412F7341E98F64F00D9B4B4 /* FreshReservation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0412F7321E98F64F00D9B4B4 /* FreshReservation.storyboard */; };
+		0412F7371E98F6BB00D9B4B4 /* ShopCart.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0412F7351E98F6BB00D9B4B4 /* ShopCart.storyboard */; };
+		0412F73A1E98F75A00D9B4B4 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0412F7381E98F75A00D9B4B4 /* Profile.storyboard */; };
+		0412F74A1E99044B00D9B4B4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0412F7491E99044B00D9B4B4 /* HomeViewController.swift */; };
+		0412F74C1E9906D800D9B4B4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0412F74B1E9906D800D9B4B4 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +27,13 @@
 		0412F6FF1E98BAE700D9B4B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0412F7021E98BAE700D9B4B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0412F7041E98BAE700D9B4B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0412F72D1E98F4C100D9B4B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LoveFreshBeen/Base.lproj/Home.storyboard; sourceTree = SOURCE_ROOT; };
+		0412F7301E98F5B300D9B4B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LoveFreshBeen/Base.lproj/SuperMarket.storyboard; sourceTree = SOURCE_ROOT; };
+		0412F7331E98F64F00D9B4B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LoveFreshBeen/Base.lproj/FreshReservation.storyboard; sourceTree = SOURCE_ROOT; };
+		0412F7361E98F6BB00D9B4B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LoveFreshBeen/Base.lproj/ShopCart.storyboard; sourceTree = SOURCE_ROOT; };
+		0412F7391E98F75A00D9B4B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LoveFreshBeen/Base.lproj/Profile.storyboard; sourceTree = SOURCE_ROOT; };
+		0412F7491E99044B00D9B4B4 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0412F74B1E9906D800D9B4B4 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +66,8 @@
 		0412F6F71E98BAE700D9B4B4 /* LoveFreshBeen */ = {
 			isa = PBXGroup;
 			children = (
-				0412F6F81E98BAE700D9B4B4 /* AppDelegate.swift */,
 				0412F7211E98F05E00D9B4B4 /* Classes */,
+				0412F6F81E98BAE700D9B4B4 /* AppDelegate.swift */,
 				0412F6FF1E98BAE700D9B4B4 /* Assets.xcassets */,
 				0412F7011E98BAE700D9B4B4 /* LaunchScreen.storyboard */,
 				0412F7041E98BAE700D9B4B4 /* Info.plist */,
@@ -78,6 +92,7 @@
 		0412F7221E98F05E00D9B4B4 /* FreshReservation */ = {
 			isa = PBXGroup;
 			children = (
+				0412F7321E98F64F00D9B4B4 /* FreshReservation.storyboard */,
 			);
 			path = FreshReservation;
 			sourceTree = "<group>";
@@ -85,6 +100,9 @@
 		0412F7231E98F05E00D9B4B4 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				0412F7401E99000100D9B4B4 /* Model */,
+				0412F7411E99000100D9B4B4 /* View */,
+				0412F73F1E99000100D9B4B4 /* Controller */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -93,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				0412F6FC1E98BAE700D9B4B4 /* Main.storyboard */,
+				0412F74B1E9906D800D9B4B4 /* MainViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -100,6 +119,7 @@
 		0412F7251E98F05E00D9B4B4 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				0412F7381E98F75A00D9B4B4 /* Profile.storyboard */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -107,6 +127,7 @@
 		0412F7261E98F05E00D9B4B4 /* ShopCart */ = {
 			isa = PBXGroup;
 			children = (
+				0412F7351E98F6BB00D9B4B4 /* ShopCart.storyboard */,
 			);
 			path = ShopCart;
 			sourceTree = "<group>";
@@ -114,6 +135,7 @@
 		0412F7271E98F05E00D9B4B4 /* SuperMarket */ = {
 			isa = PBXGroup;
 			children = (
+				0412F72F1E98F5B300D9B4B4 /* SuperMarket.storyboard */,
 			);
 			path = SuperMarket;
 			sourceTree = "<group>";
@@ -123,6 +145,29 @@
 			children = (
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		0412F73F1E99000100D9B4B4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0412F72C1E98F4C100D9B4B4 /* Home.storyboard */,
+				0412F7491E99044B00D9B4B4 /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0412F7401E99000100D9B4B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0412F7411E99000100D9B4B4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,9 +229,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0412F7311E98F5B300D9B4B4 /* SuperMarket.storyboard in Resources */,
 				0412F7031E98BAE700D9B4B4 /* LaunchScreen.storyboard in Resources */,
+				0412F73A1E98F75A00D9B4B4 /* Profile.storyboard in Resources */,
 				0412F7001E98BAE700D9B4B4 /* Assets.xcassets in Resources */,
 				0412F6FE1E98BAE700D9B4B4 /* Main.storyboard in Resources */,
+				0412F7341E98F64F00D9B4B4 /* FreshReservation.storyboard in Resources */,
+				0412F7371E98F6BB00D9B4B4 /* ShopCart.storyboard in Resources */,
+				0412F72E1E98F4C100D9B4B4 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +247,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0412F74C1E9906D800D9B4B4 /* MainViewController.swift in Sources */,
 				0412F6F91E98BAE700D9B4B4 /* AppDelegate.swift in Sources */,
+				0412F74A1E99044B00D9B4B4 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +271,51 @@
 				0412F7021E98BAE700D9B4B4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0412F72C1E98F4C100D9B4B4 /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0412F72D1E98F4C100D9B4B4 /* Base */,
+			);
+			name = Home.storyboard;
+			path = ../../Main;
+			sourceTree = "<group>";
+		};
+		0412F72F1E98F5B300D9B4B4 /* SuperMarket.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0412F7301E98F5B300D9B4B4 /* Base */,
+			);
+			name = SuperMarket.storyboard;
+			path = ../Main;
+			sourceTree = "<group>";
+		};
+		0412F7321E98F64F00D9B4B4 /* FreshReservation.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0412F7331E98F64F00D9B4B4 /* Base */,
+			);
+			name = FreshReservation.storyboard;
+			path = ../Main;
+			sourceTree = "<group>";
+		};
+		0412F7351E98F6BB00D9B4B4 /* ShopCart.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0412F7361E98F6BB00D9B4B4 /* Base */,
+			);
+			name = ShopCart.storyboard;
+			path = ../Main;
+			sourceTree = "<group>";
+		};
+		0412F7381E98F75A00D9B4B4 /* Profile.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0412F7391E98F75A00D9B4B4 /* Base */,
+			);
+			name = Profile.storyboard;
+			path = ../Main;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -321,7 +418,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = LoveFreshBeen/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xmdzmylc.LoveFreshBeen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -336,7 +433,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = LoveFreshBeen/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xmdzmylc.LoveFreshBeen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
